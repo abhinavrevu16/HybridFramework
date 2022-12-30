@@ -23,7 +23,8 @@ public class TC1 extends StartBrowser{
 	} catch (AssertionError e) {
 		StartBrowser.childTest.fail("Title verification Not Successful");
 		throw e;
-
+	}
 	  cfs.logout();
+//  new line
+	}
   }
-}
