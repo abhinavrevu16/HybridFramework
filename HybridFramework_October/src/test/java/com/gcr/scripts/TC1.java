@@ -25,6 +25,6 @@ public class TC1 extends StartBrowser{
 		throw e;
 	}
 	  cfs.logout();
-//  new line
+//  new lin
 	}
   }
