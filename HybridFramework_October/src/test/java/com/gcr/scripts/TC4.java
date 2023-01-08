@@ -12,5 +12,8 @@ public class TC4 extends StartBrowser{
 	  bfs.loginWebshop();
 	  
 	  Thread.sleep(2000);
-  }
+      bfs.logoutwebshop();
+      
+}
+
 }

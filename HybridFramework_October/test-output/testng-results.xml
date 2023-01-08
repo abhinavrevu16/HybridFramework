@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-08T16:01:50 IST" name="Default suite" finished-at="2023-01-08T16:02:49 IST" duration-ms="59496">
+  <suite started-at="2023-01-08T16:54:47 IST" name="Default suite" finished-at="2023-01-08T16:55:07 IST" duration-ms="19298">
     <groups>
     </groups>
-    <test started-at="2023-01-08T16:01:50 IST" name="Default test" finished-at="2023-01-08T16:02:49 IST" duration-ms="59496">
+    <test started-at="2023-01-08T16:54:47 IST" name="Default test" finished-at="2023-01-08T16:55:07 IST" duration-ms="19298">
       <class name="com.gcr.scripts.TC4">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:01:50 IST" name="generateReport" finished-at="2023-01-08T16:01:50 IST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:47 IST" name="generateReport" finished-at="2023-01-08T16:54:48 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:01:50 IST" name="beforeClass" finished-at="2023-01-08T16:02:38 IST" duration-ms="47686" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:48 IST" name="beforeClass" finished-at="2023-01-08T16:54:49 IST" duration-ms="1513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:02:38 IST" name="methodName" finished-at="2023-01-08T16:02:38 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:49 IST" name="methodName" finished-at="2023-01-08T16:54:49 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="LoginLogout_Webshop()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:02:38 IST" name="LoginLogout_Webshop" finished-at="2023-01-08T16:02:48 IST" duration-ms="10351" status="PASS">
+        <test-method signature="LoginLogout_Webshop()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:49 IST" name="LoginLogout_Webshop" finished-at="2023-01-08T16:55:06 IST" duration-ms="16473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLogout_Webshop -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:02:48 IST" name="afterClass" finished-at="2023-01-08T16:02:49 IST" duration-ms="1112" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:55:06 IST" name="afterClass" finished-at="2023-01-08T16:55:07 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

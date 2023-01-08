@@ -19,13 +19,30 @@ public class BusinessFunctions {
 		
 	public void loginWebshop() throws Exception
 	{
-		StartBrowser.childTest = StartBrowser.parentTest.createNode("Login to webshop application");
+		StartBrowser.childTest = StartBrowser.parentTest.createNode("Login to webshop application ");
 		ad.navigateToApplication("https://demowebshop.tricentis.com/");
 		ad.click(WebshopHomepage.lnkLogin, "Login link");
 		ad.type(WebShopLoginpage.txtEmail, "abhinavrevu16@gmail.com", "email text box");
 		ad.type(WebShopLoginpage.txtpassword, "Abhi@123", "passwprd text box");
 		ad.click(WebShopLoginpage.btnlogin, "login button");
 		
+	
 	}
+	public void loginWebshop(String username , String password ) throws Exception
+	{
+		StartBrowser.childTest = StartBrowser.parentTest.createNode("Login to webshop application using arguments");
+		ad.navigateToApplication("https://demowebshop.tricentis.com/");
+		ad.click(WebshopHomepage.lnkLogin, "Login link");
+		ad.type(WebShopLoginpage.txtEmail, username, "email text box");
+		ad.type(WebShopLoginpage.txtpassword, password, "passwprd text box");
+		ad.click(WebShopLoginpage.btnlogin, "login button");
+		
+	
+	}
+	public void logoutwebshop() throws Exception
+	{
+		StartBrowser.childTest = StartBrowser.parentTest.createNode("Logout to webshop application");
+		ad.click(WebshopHomepage.lnkLogout, "logoutlink");
+		
 }
-
+}
