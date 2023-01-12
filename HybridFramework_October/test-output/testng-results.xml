@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-08T16:54:47 IST" name="Default suite" finished-at="2023-01-08T16:55:07 IST" duration-ms="19298">
+  <suite started-at="2023-01-08T21:56:15 IST" name="Default suite" finished-at="2023-01-08T21:56:28 IST" duration-ms="13551">
     <groups>
     </groups>
-    <test started-at="2023-01-08T16:54:47 IST" name="Default test" finished-at="2023-01-08T16:55:07 IST" duration-ms="19298">
-      <class name="com.gcr.scripts.TC4">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:47 IST" name="generateReport" finished-at="2023-01-08T16:54:48 IST" duration-ms="272" status="PASS">
+    <test started-at="2023-01-08T21:56:15 IST" name="Default test" finished-at="2023-01-08T21:56:28 IST" duration-ms="13551">
+      <class name="com.gcr.scripts.TC5">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC5@58d75e99]" started-at="2023-01-08T21:56:15 IST" name="generateReport" finished-at="2023-01-08T21:56:15 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:48 IST" name="beforeClass" finished-at="2023-01-08T16:54:49 IST" duration-ms="1513" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC5@58d75e99]" started-at="2023-01-08T21:56:15 IST" name="beforeClass" finished-at="2023-01-08T21:56:17 IST" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:49 IST" name="methodName" finished-at="2023-01-08T16:54:49 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC5@58d75e99]" started-at="2023-01-08T21:56:17 IST" name="methodName" finished-at="2023-01-08T21:56:17 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.gcr.scripts.TC4.LoginLogout_Webshop() throws java.lang.Exception]]>
+                <![CDATA[public void com.gcr.scripts.TC5.LoginLogout_Webshop() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="LoginLogout_Webshop()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:54:49 IST" name="LoginLogout_Webshop" finished-at="2023-01-08T16:55:06 IST" duration-ms="16473" status="PASS">
+        <test-method signature="LoginLogout_Webshop()[pri:0, instance:com.gcr.scripts.TC5@58d75e99]" started-at="2023-01-08T21:56:17 IST" name="LoginLogout_Webshop" finished-at="2023-01-08T21:56:27 IST" duration-ms="10557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLogout_Webshop -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC4@58d75e99]" started-at="2023-01-08T16:55:06 IST" name="afterClass" finished-at="2023-01-08T16:55:07 IST" duration-ms="950" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC5@58d75e99]" started-at="2023-01-08T21:56:27 IST" name="afterClass" finished-at="2023-01-08T21:56:28 IST" duration-ms="982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.gcr.scripts.TC4 -->
+      </class> <!-- com.gcr.scripts.TC5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
